@@ -1,5 +1,6 @@
 import React from 'react';
 import SideNav from "react-simple-sidenav";
+import SideNavItems from './sidenav_items';
 
 
 const Nav = (props) => {
@@ -8,11 +9,11 @@ const Nav = (props) => {
             showNav={props.showNav}
             onHideNav={props.onHideNav}
             navStyle={{
-                background: '#ededed',
+                background: '#242424',
                 maxWidth: '220px'
             }}
         >
-            Items
+            <SideNavItems />
         </SideNav>
     );
 };
