@@ -2,8 +2,13 @@
 
 <h3>How to start developing:</h3>
 
+Install:
+ Nodemon-> $ npm install -g nodemon
+ MongoDB
+
+
 <ul>
-  <li>Run: $ npm run dev (This will start JSON server and Client server)</li>
+  <li>Run: $ npm run dev (This will start Node server and Client server)</li>
 </ul>
 
 <hr/>
