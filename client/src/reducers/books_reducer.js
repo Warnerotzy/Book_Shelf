@@ -18,6 +18,12 @@ export default function(state={}, action) {
                 reviewer: action.payload.reviewer
             }
 
+        case 'ADD_BOOK':
+            return {...state,newbook:action.payload}
+            
+        case 'CLEAR_BOOK':
+            return {...state,newbook:action.payload}
+        
         default:
             return state
     }

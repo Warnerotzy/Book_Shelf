@@ -135,7 +135,7 @@ header .navItem span {
     color: #02bcd4;
 }
 
-.rl_container input {
+.rl_container input  {
     color:#3c3c3c;
     font-size: 20px;
     border-radius: 3px;
@@ -146,6 +146,14 @@ header .navItem span {
     font-weight: 300;
     width: 260px;
 }
+
+.rl_container select {
+    color:#3c3c3c;
+}
+.rl_container textarea {
+    color:#3c3c3c;
+}
+
 .rl_container.article input {
     width: 80%;
 }
