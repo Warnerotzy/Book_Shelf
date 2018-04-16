@@ -44,7 +44,6 @@ class BookView extends Component {
     )
 
     render() {
-        console.log(this.props)
         let books = this.props.books;
         return (
             <div>
